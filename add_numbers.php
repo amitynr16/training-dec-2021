@@ -15,7 +15,8 @@ if($_POST){
         $c = $a - $b;
     }
     if($_POST['btn'] == '*'){
-        $c = $a * $b;
+        $c = $a * $b; 
+        echo"test";
     }
 }
 

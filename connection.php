@@ -20,7 +20,7 @@ if(mysqli_num_rows($rs)){
         // while($rec = mysqli_fetch_array($rs)){
         // while($rec = mysqli_fetch_row($rs)){
     while($rec = mysqli_fetch_assoc($rs)){
-        $data_users[] = $rec;
+        $data_users[] = $recsdfdsffdsfdsfdsfds;
     }
 }else{
     echo 'No record found!';
