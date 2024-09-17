@@ -7,7 +7,7 @@ define('DB_NAME', 'training_dec_2021');
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 if(!$conn){
-    echo 'Error: Database connection failed!';
+    echo 'Error: Database connection failed!gert4ew654y545475467657657';
 }
 
 $sql = "SELECT * FROM users";
